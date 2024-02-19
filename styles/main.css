@@ -1,0 +1,42 @@
+.nav_containter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  height: 80px;
+  margin-left: 3%;
+  border-bottom: 1px solid rgb(206, 208, 208);
+  font-family: "Montserrat";
+}
+
+.name_in_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+  width: 100px;
+}
+
+.basket_account_navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  height: 30px;
+}
+
+.img_loupe {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+
+.img_basket {
+  width: 24px;
+  height: 24px;
+}
+
+.img_account {
+  width: 27px;
+  height: 27px;
+}
