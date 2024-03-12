@@ -88,24 +88,6 @@
 /* -------------------------------------------------- */
 
 /* ----------------------CATEGORIES---------------------- */
-.categories {
-  font-weight: 300;
-  color: rgb(119, 118, 136);
-  font-size: 16px;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-
-  display: flex;
-  justify-content: space-around;
-}
-
-.categories_container {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
 .text_no_decor {
   text-decoration: none;
   color: rgb(119, 118, 136);
@@ -122,13 +104,6 @@
 }
 
 /* -------------------------------------------------- */
-
-.banner_img {
-  margin-left: 80px;
-  margin-top: 30px;
-  width: 90%;
-  height: 600px;
-}
 
 .middle_text {
   margin-top: 100px;
@@ -228,7 +203,7 @@
   height: 370px;
 
   margin-top: 120px;
-  margin-left: 198px;
+  margin-left: 170px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -272,7 +247,7 @@
 }
 
 .img_in_desc-2 {
-  width: 249px;
+  width: 300px;
   height: 300px;
   transition: 0.2s; /* Время эффекта */
 }
@@ -316,61 +291,13 @@
 }
 
 .view_collection_container {
-  margin-left: 188px;
+  margin-left: 13.8%;
   width: 76%;
   height: 450px;
   display: grid;
 
   margin-top: 80px;
   grid-template-columns: 1fr 1fr;
-}
-
-.block9 {
-  background-color: rgb(42, 37, 75);
-  width: 98%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.block9-text-1 {
-  color: white;
-  font-weight: 350;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.block9-text-2 {
-  color: white;
-  font-weight: 200;
-  font-size: 15px;
-}
-
-.block-9-btn {
-  color: white;
-  margin-top: 40px;
-  background-color: rgb(74, 69, 100);
-
-  font-weight: 250;
-  width: 160px;
-  height: 45px;
-}
-
-.block-9-btn:hover {
-  background-color: rgb(61, 55, 91);
-}
-
-.content_in_block9 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  width: 80%;
-  height: 80%;
-}
-
-.block10 img {
-  height: 100%;
 }
 
 #toTop {
@@ -393,83 +320,6 @@
   display: flex;
   justify-content: center;
   color: rgb(65, 65, 65);
-}
-
-.bottom-block {
-  margin-top: 70px;
-  width: 100%;
-  height: 500px;
-  background-image: url("/img/sunset.jpeg");
-}
-
-.text-content-container {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: white;
-}
-
-.bottom-block-p1 {
-  font-weight: 400;
-  font-size: 25px;
-}
-
-.bottom-block-p2 {
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.bottom-block-p3 {
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.checkboxs {
-  display: flex;
-}
-
-.checkboxs p {
-  font-weight: 300;
-  font-size: 13px;
-}
-
-.checkbox-1,
-.checkbox-2,
-.checkbox-3 {
-  display: flex;
-  margin: 15px;
-}
-
-.checkbox-1 input,
-.checkbox-2 input,
-.checkbox-3 input {
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.input-in-bottom-block {
-  margin-top: 20px;
-  padding-left: 20px;
-  background-color: white;
-  height: 50px;
-  width: 420px;
-  color: black;
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.input_btn-bottom-block button {
-  background-color: rgb(53, 47, 91);
-  height: 50px;
-  width: 100px;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.input_btn-bottom-block button:hover {
-  background-color: rgb(61, 55, 91);
 }
 
 footer {
@@ -557,12 +407,6 @@ footer {
   font-size: 14px;
 }
 
-.icons_in_footer img {
-  width: 25px;
-
-  margin-right: 15px;
-}
-
 .first-category-menu,
 .first-category-categories,
 .first-category-about-us {
@@ -578,9 +422,7 @@ footer {
   color: rgb(169, 169, 169);
 }
 
-/* --------------------------------------------------------------- */
-/* CHAIR PAGE */
-
+/* -------------CARD------------------------------------------- */
 .photo_and_description {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -590,6 +432,8 @@ footer {
 .photo_and_description img {
   margin-top: 50px;
   margin-left: 50px;
+  width: 500px;
+  height: 500px;
 }
 
 .name {
